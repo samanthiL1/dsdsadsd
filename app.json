@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Life Counselling",
+    "slug": "counseling",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.5.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+  
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.counseling"
+    },
+    "description": "Creative life counseling for mental disorder"
+  }
+}
